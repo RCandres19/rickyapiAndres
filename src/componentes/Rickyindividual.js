@@ -19,7 +19,7 @@ export default function Rickyindividual() {
 
   if(isloading){
     Swal.fire({ title: "Cargando datos..." })
-    Swal.showloading()
+    Swal.showLoading()
   }
   else
     Swal.close()
